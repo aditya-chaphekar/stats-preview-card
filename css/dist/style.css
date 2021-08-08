@@ -38,7 +38,7 @@ body {
   content: "";
   width: 50%;
   background-blend-mode: multiply;
-  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   background: rgba(170, 92, 219, 0.8) url("../../images/image-header-desktop.jpg") no-repeat;
   background-size: cover;
