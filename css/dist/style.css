@@ -15,7 +15,7 @@ body {
   background: #1b1938;
   border-radius: 10px;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card {
     flex-flow: row;
   }
@@ -29,7 +29,7 @@ body {
   background: rgba(170, 92, 219, 0.8) url("../../images/image-header-desktop.jpg") no-repeat;
   background-size: cover;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card:before {
     display: none;
   }
@@ -43,7 +43,7 @@ body {
   background: rgba(170, 92, 219, 0.8) url("../../images/image-header-desktop.jpg") no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
   .card:after {
     display: none;
   }
@@ -52,7 +52,7 @@ body {
   text-align: center;
   padding: 20px;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card .card-content {
     width: 40%;
     padding: 5%;
@@ -65,7 +65,7 @@ body {
   font-size: 28px;
   color: white;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card .card-content h1 {
     font-size: 48px;
   }
@@ -79,7 +79,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card .card-content p {
     font-size: 22px;
   }
@@ -90,7 +90,7 @@ body {
   flex-flow: column;
   justify-content: space-between;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card .card-content .stats {
     flex-flow: row;
     margin: 70px 0 0 0;
@@ -105,7 +105,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card .card-content .stats .stats-item {
     font-size: 32px;
   }
@@ -117,7 +117,7 @@ body {
   font-size: 11px;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 500px) {
   .card .card-content .stats .stats-item .stat-type {
     font-size: 22px;
   }
