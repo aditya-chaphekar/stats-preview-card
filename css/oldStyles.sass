@@ -1,0 +1,63 @@
+body
+  display: flex
+  align-items: center
+  justify-content: center
+  min-height: 100vh
+  margin: 0
+  background: hsl(233, 47%, 7%)
+
+.card
+  display: flex
+  width: 70%
+  height: 35%
+  background: hsl(244, 38%, 16%)
+  border-radius: 10px
+
+  .card-content
+    width: 40%
+    padding: 70px
+
+    h1
+      font-family: 'Inter', sans-serif
+      font-weight: 700
+      font-size: 48px
+      color: hsl(0, 0%, 100%)
+
+    p
+      font-size: 22px
+      color: hsla(0, 0%, 100%, 0.75)
+      font-family: "Inter", sans-serif
+      font-weight: 400
+      margin-bottom: 70px
+
+    .stats
+      display: flex
+      justify-content: space-between
+      margin-right: 30px
+
+      .stats-item
+        font-family: 'Inter', sans-serif
+        font-weight: 700
+        font-size: 32px
+        color: hsl(0, 0%, 100%)
+        display: flex
+        flex-direction: column
+
+        .stat-type
+          font-family: 'Lexend Deca', sans-serif
+          font-weight: 400
+          text-transform: uppercase
+          font-size: 22px
+          color: hsla(0, 0%, 100%, 0.6)
+
+.card::after
+  content: ''
+  width: 50%
+  background-blend-mode: multiply
+  border-bottom-right-radius: 10px
+  border-top-right-radius: 10px
+  background: rgba(170, 92, 219, 0.8) url("../../images/image-header-desktop.jpg") no-repeat
+  background-size: cover
+
+.accent
+  color: hsl(277, 64%, 61%)

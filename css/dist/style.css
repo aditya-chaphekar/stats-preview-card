@@ -1,0 +1,126 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background: #090b1a;
+}
+
+.card {
+  display: flex;
+  margin: 100px 0 100px 0;
+  width: 90%;
+  flex-flow: column;
+  background: #1b1938;
+  border-radius: 10px;
+}
+@media screen and (min-width: 375px) {
+  .card {
+    flex-flow: row;
+  }
+}
+.card:before {
+  content: "";
+  height: 250px;
+  background-blend-mode: multiply;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: rgba(170, 92, 219, 0.8) url("../../images/image-header-desktop.jpg") no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 375px) {
+  .card:before {
+    display: none;
+  }
+}
+.card:after {
+  content: "";
+  width: 50%;
+  background-blend-mode: multiply;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: rgba(170, 92, 219, 0.8) url("../../images/image-header-desktop.jpg") no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 375px) {
+  .card:after {
+    display: none;
+  }
+}
+.card .card-content {
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (min-width: 375px) {
+  .card .card-content {
+    width: 40%;
+    padding: 5%;
+    text-align: left;
+  }
+}
+.card .card-content h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: white;
+}
+@media screen and (min-width: 375px) {
+  .card .card-content h1 {
+    font-size: 48px;
+  }
+}
+.card .card-content h1 .accent {
+  color: #aa5cdb;
+}
+.card .card-content p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+@media screen and (min-width: 375px) {
+  .card .card-content p {
+    font-size: 22px;
+  }
+}
+.card .card-content .stats {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+@media screen and (min-width: 375px) {
+  .card .card-content .stats {
+    flex-flow: row;
+    margin: 70px 0 0 0;
+  }
+}
+.card .card-content .stats .stats-item {
+  margin: 10px 0 10px 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 375px) {
+  .card .card-content .stats .stats-item {
+    font-size: 32px;
+  }
+}
+.card .card-content .stats .stats-item .stat-type {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (min-width: 375px) {
+  .card .card-content .stats .stats-item .stat-type {
+    font-size: 22px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
